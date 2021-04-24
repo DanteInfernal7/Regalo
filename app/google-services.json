@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "784306219921",
+    "firebase_url": "https://attendance-management-sy-3b5fd.firebaseio.com",
+    "project_id": "attendance-management-sy-3b5fd",
+    "storage_bucket": "attendance-management-sy-3b5fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784306219921:android:e6bb1fedf95d4cff188830",
+        "android_client_info": {
+          "package_name": "com.example.attendancemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784306219921-dn5t93a5kc12qftjoqdbu28r0lplk2sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attendancemanagementsystem",
+            "certificate_hash": "01022073e7d584ceda661387d0b5db2e47daac6b"
+          }
+        },
+        {
+          "client_id": "784306219921-ftdb755f5f1n2fj1jh6625semcup8f7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUkiOH4tqyaJ8ppLvmMkq52MmSjj3ogHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784306219921-ftdb755f5f1n2fj1jh6625semcup8f7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784306219921:android:8d3efb8e1a33a155188830",
+        "android_client_info": {
+          "package_name": "com.example.regalo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784306219921-ftdb755f5f1n2fj1jh6625semcup8f7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUkiOH4tqyaJ8ppLvmMkq52MmSjj3ogHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784306219921-ftdb755f5f1n2fj1jh6625semcup8f7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
