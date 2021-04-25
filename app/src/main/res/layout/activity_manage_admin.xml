@@ -4,66 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EmailUpdates">
+    tools:context=".ManageAdmin">
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView6"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Email Updates"
+        android:text="Manage Admin"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/emailname"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <EditText
-        android:id="@+id/emailname"
+        android:id="@+id/editTextTextPersonName4"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="80dp"
         android:ems="10"
-        android:hint="Enter Name"
+        android:hint="Enter Email ID"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/fromdate"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/fromdate"
+        android:id="@+id/editTextTextPersonName5"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="220dp"
         android:ems="10"
-        android:hint="Enter MM-YYYY"
+        android:hint="Enter Password"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/sharebutton"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/sharebutton"
+        android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginBottom="80dp"
-        android:text="Share"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ProgressBar
-        android:id="@+id/EmailUpProg"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="57dp"
-        android:layout_height="59dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
 </androidx.constraintlayout.widget.ConstraintLayout>

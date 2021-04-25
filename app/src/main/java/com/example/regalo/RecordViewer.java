@@ -40,9 +40,7 @@ public class RecordViewer extends AppCompatActivity {
                 ViewName= viewrecordname.getText().toString();
                 ViewDate= viewrecorddate.getText().toString();
                 final String childValue= ViewName + ViewDate;
-                databaseviewer=
-                        FirebaseDatabase.getInstance().getReference().child("Attendance").child(childValue)
-                ;
+                databaseviewer = FirebaseDatabase.getInstance().getReference().child("Attendance").child(childValue);
                 databaseviewer.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

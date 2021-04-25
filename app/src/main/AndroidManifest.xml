@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Regalo">
-        <activity android:name=".EmailUpdates"></activity>
+        <activity android:name=".ManageAdmin"></activity>
+        <activity android:name=".ManageUser" />
+        <activity android:name=".EmailUpdates" />
         <activity android:name=".UserManagement" />
         <activity android:name=".RecordViewer" />
         <activity android:name=".RecordEntry" />
