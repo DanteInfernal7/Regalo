@@ -1,30 +1,29 @@
 package com.example.regalo;
 
 public class Attendance {
-    String presenttext;
-    String RecAttend;
+    String attendanceName, attendanceAttend;
 
     public Attendance() {
     }
 
-    public Attendance(String presenttext, String recAttend) {
-        this.presenttext = presenttext;
-        RecAttend = recAttend;
+    public Attendance(String attendanceName, String attendanceAttend) {
+        this.attendanceName = attendanceName;
+        this.attendanceAttend = attendanceAttend;
     }
 
-    public String getPresenttext() {
-        return presenttext;
+    public String getAttendanceName() {
+        return attendanceName;
     }
 
-    public void setPresenttext(String presenttext) {
-        this.presenttext = presenttext;
+    public void setAttendanceName(String attendanceName) {
+        this.attendanceName = attendanceName;
     }
 
-    public String getRecAttend() {
-        return RecAttend;
+    public String getAttendanceAttend() {
+        return attendanceAttend;
     }
 
-    public void setRecAttend(String recAttend) {
-        RecAttend = recAttend;
+    public void setAttendanceAttend(String attendanceAttend) {
+        this.attendanceAttend = attendanceAttend;
     }
 }

@@ -38,7 +38,7 @@
         android:layout_height="80dp"
         android:layout_marginBottom="160dp"
         android:ems="10"
-        android:hint="Enter MM-YYYY"
+        android:hint="Select Month"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/sharebutton"
         app:layout_constraintEnd_toEndOf="parent"

@@ -6,53 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".ManageAdmin">
 
+    <Button
+        android:id="@+id/deleteadmin"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        android:text="Delete Admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="250dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:text="Manage Admin"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toTopOf="@+id/adminemail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/adminemail"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="100dp"
         android:ems="10"
         android:hint="Enter Email ID"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintBottom_toTopOf="@+id/adminpass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/adminpass"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="100dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/addadmin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/addadmin"
         android:layout_width="0dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="80dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:text="Add Admin"
+        app:layout_constraintBottom_toTopOf="@+id/deleteadmin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

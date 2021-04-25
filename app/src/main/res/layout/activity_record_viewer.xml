@@ -26,7 +26,8 @@
         android:layout_height="80dp"
         android:layout_marginBottom="84dp"
         android:ems="10"
-        android:hint="Enter DD-MM-YYYY"
+        android:focusableInTouchMode="false"
+        android:hint="Select Date"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/viewerdisplay"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,4 +81,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.642" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
