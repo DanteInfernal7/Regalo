@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Regalo">
+        <activity android:name=".EmailUpdates"></activity>
+        <activity android:name=".UserManagement" />
+        <activity android:name=".RecordViewer" />
+        <activity android:name=".RecordEntry" />
         <activity
             android:name=".MainActivity"
             android:label="Regalo">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>>
-        </activity>
-        <activity android:name=".Main2Activity"/>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".Main2Activity" />
     </application>
 
 </manifest>
