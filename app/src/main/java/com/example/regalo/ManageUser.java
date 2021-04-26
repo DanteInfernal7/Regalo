@@ -62,26 +62,10 @@ public class ManageUser extends AppCompatActivity {
                 } else {
                     NewUser newuser = new NewUser(Name,Fingerid,Emailid);
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                    AlertDialog.Builder dialog = new AlertDialog.Builder(ManageUser.this);
-                    dialog.setTitle("Confim your choice");
-                    dialog.setMessage("Are you sure you want to delete your account?");
-                    dialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            databaseReference.child(Fingerid).removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(@NonNull Task<Void> task) {
-                                    if(task.isSuccessful()){
-                                        Toast.makeText(ManageUser.this, "User Deleted", Toast.LENGTH_SHORT).show();
-                                    }
-                                    else{
-                                        Toast.makeText(ManageUser.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                                    }
-                                }
-                            });
-                        }
-                    });
+                    databaseReference.child(Fingerid).removeValue();
+                    Toast.makeText(ManageUser.this, "User Deleted", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
 
